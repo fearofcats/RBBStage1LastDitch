@@ -19,3 +19,10 @@ But "probably not" has been bothering me enough that I'm giving it one final att
 * [ ] Determine whether those values can be patched for 17526
 * [ ] Reinsert the patched binary and perform an initial test
 * [ ] See whether Rock Band Blitz reaches the “Running Exploit” screen
+
+
+# current ramblings:
+
+value should be: str(hex_address as signed int32)  ?
+
+0x817247c8 -> str(0x817247c8 - 0x100000000) = '-2126659640'
