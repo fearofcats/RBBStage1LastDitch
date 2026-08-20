@@ -12,8 +12,10 @@ But "probably not" has been bothering me enough that I'm giving it one final att
 
 ## Progress:
 
-* [x] Successfully extract Stage 1
-* [ ] Figure the math for songs.dta 
-* [ ] Compare its structure against Stage 1 implementations where source is available
-* [ ] Confirm whether a patch can be applied?
-* [ ] Wrap things up and do an intial test, goal is getting to the "Running Exploit" screen if possible
+* [x] Extract Stage 1 from `songs.dta`
+* [ ] Document its offset, size, and alignment inside `songs.dta`
+* [ ] Compare its structure against Stage 1 implementations with available source
+* [ ] Identify any dashboard-specific values
+* [ ] Determine whether those values can be patched for 17526
+* [ ] Reinsert the patched binary and perform an initial test
+* [ ] See whether Rock Band Blitz reaches the “Running Exploit” screen
