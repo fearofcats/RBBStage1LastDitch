@@ -14,11 +14,11 @@ But "probably not" has been bothering me enough that I'm giving it one final att
 
 * [x] Extract Stage 1 from `songs.dta`
 * [ ] Document its offset, size, and alignment inside `songs.dta`
-* [ ] Compare its structure against Stage 1 implementations with available source
-* [ ] Identify any dashboard-specific values
-* [ ] Determine whether those values can be patched for 17526
-* [ ] Reinsert the patched binary and perform an initial test
-* [ ] See whether Rock Band Blitz reaches the “Running Exploit” screen
+* [x] Compare its structure against Stage 1 implementations with available source
+* [x] Identify any dashboard-specific values
+* [x] Determine whether those values can be patched for 17526
+* [x] Reinsert the patched binary and perform an initial test
+* [x] See whether Rock Band Blitz reaches the “Running Exploit” screen
 
 
 # current ramblings:
